@@ -1,13 +1,24 @@
 {
 	"name": "versatile",
-	"version": "0.0.1",
+	"description": "A content/view engine for node.js which facilitates really easy views, layouts and content using whatever templating (e.g. handlebars) and content parsing (e.g. markdown) engines you prefer (mix and match as many as you like, per document), with no web framework dependencies.",
 	"keywords": ["template","view","layout","engine"],
+	"version": "0.0.1",
+	"homepage": "http://axefrog.github.com/versatile.js",
+	"bugs": "https://github.com/axefrog/versatile.js/issues",
+	"engines": {
+		"node": ">=0.8.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:axefrog/versatile.js.git"
+	},
 	"author": {
 		"name": "Nathan Ridley",
 		"email": "nathan@axefrog.com",
 		"url": "http://axefrog.com"
 	},
-	"main": "versatile.js",
+	"files": ["versatile.js"],
+	"main": "versatile",
 	"dependencies": {
 		"underscore": "x.x.x",
 		"q": "x.x.x"
