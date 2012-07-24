@@ -1,0 +1,15 @@
+{
+	"name": "versatile",
+	"version": "0.0.1",
+	"keywords": ["template","view","layout","engine"],
+	"author": {
+		"name": "Nathan Ridley",
+		"email": "nathan@axefrog.com",
+		"url": "http://axefrog.com"
+	},
+	"main": "versatile.js",
+	"dependencies": {
+		"underscore": "x.x.x",
+		"q": "x.x.x"
+	}
+}
